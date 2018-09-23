@@ -46,6 +46,7 @@ public class DetailActivity extends BaseActivity {
         ButterKnife.bind(this);
 
         item = getIntent().getParcelableExtra(BundleConstants.ITEM_KEY);
+        setTitle(getString(R.string.feed_detail));
     }
 
     @Override
