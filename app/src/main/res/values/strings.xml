@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FlickerFeed</string>
+    <string name="generic_api_error_n_please_check_network">Generic API Error. \n Please check network</string>
+</resources>
