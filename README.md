@@ -1,13 +1,13 @@
 # FlickerFeed
 
 Flicker Feed application displays public photo feeds. The app uses Flicker URL "https://api.flickr.com/services/feeds/photos_public.gne?lang=en-us&format=json&nojsoncallback=1"
-The fetched list is displayed as image gallery in list form and on click of item detail view shows relevant info on feed.
+The fetched list is displayed as image gallery in list form and on click of item, detail view shows relevant info for the item. The list is refreshed every 30 seconds.
 
 # Application Architecture.
-- Application uses MVVVM architecture & CLEAN architecture & principles of SOLID programming.
+- Application uses MVVM architecture & CLEAN architecture & principles of SOLID programming.
 - Dagger 2 is used for Dependency Injection and ButterKnife for View Injections.
 - Retrofit is used for Network layer.
-- RxJava2 is used for Background/Asychronous operations like Network call/ response transformation.
+- RxJava2 is used for Background/Asychronous operations like Network call/ response fetch and 30 secs refresh.
 - GSON library is used for parsing of data
 - Glide is used to fetch/resize images.
 - Application uses Mockito for Junit test cases.
